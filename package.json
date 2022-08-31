@@ -1,0 +1,35 @@
+{
+  "name": "discord-cli-install",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build --verbose ./tsconfig.json",
+    "start": "node .",
+    "make": "npm run build && npm run start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "discord",
+    "cli",
+    "install"
+  ],
+  "author": "1nch",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.1",
+    "@types/tar": "^6.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0"
+  },
+  "dependencies": {
+    "tar": "^6.1.11"
+  },
+  "bin": "./build/index.js",
+  "homepage": "https://github.com/1nchhh/discord-cli-install#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1nchhh/discord-cli-install.git"
+  }
+}
