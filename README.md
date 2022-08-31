@@ -1,13 +1,13 @@
-# vscode-cli-install
+# discord-cli-install
 
 ## Install
 
 ```bash
-npm install -g vscode-cli-install
+npm install -g discord-cli-install
 ```
 
 ## Usage
 
 ```bash
-vscode-cli-install --help
+discord-cli-install --help
 ```
