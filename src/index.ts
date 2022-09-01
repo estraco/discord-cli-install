@@ -615,7 +615,7 @@ async function linkAction(double: {
         process.exit(1);
     }
 
-    const exefile = path.join(dir, `Discord${build === 'stable' ? '' : build === 'canary' ? 'Canary' : 'PTB'}`, 'discord');
+    const exefile = path.join(dir, `Discord${build === 'stable' ? '' : build === 'canary' ? 'Canary' : 'PTB'}`);
 
     console.log(`Linking ${exefile} to ${symlinkdir}`);
 
